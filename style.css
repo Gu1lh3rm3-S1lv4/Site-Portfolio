@@ -531,15 +531,19 @@ footer .line-footer p a {
         padding: 80px 4%;
     }
 
-    .sobre.txt-sobre h2 {
-        font-size: 35px;
+    .sobre .txt-sobre h2 {
+        font-size: 40px;
         line-height: 35px;
         text-align: center;
     }
 
-    .txt-sobre p {
-        width: 100%;
-        text-align: center;
+    .sobre .txt-sobre p {
+        margin: 20px
+            /*encima e embaixo*/
+            0;
+        /*laterais*/
+        text-align: justify;
+        max-width: 100%;
     }
 
     .btn-social {
