@@ -293,13 +293,29 @@ section.sobre .flex {
     display: block;
 }
 
-.sobre .txt-sobre p {
+.sobre .txt-sobre h3 {
     margin: 20px
         /*encima e embaixo*/
         0;
     /*laterais*/
-    text-align: justify;
+
     max-width: 60%;
+}
+
+@media (max-width: 1024px) {
+    .sobre .txt-sobre h3 {
+        margin: 20px
+            /*encima e embaixo*/
+            0;
+        /*laterais*/
+
+        max-width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
 }
 
 /*.sobre .txt-sobre*/
