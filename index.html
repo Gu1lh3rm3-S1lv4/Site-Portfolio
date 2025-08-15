@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--Fim google fontes-->
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--bootstrap icons-->
+    <title>WebSite</title>
+    <link rel="icon" href="imagens/1-Photoroom.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+
+<body>
+    <!--Botão voltar ao topo-->
+    <div id="backToTop" class="fixed-button">
+        <i class="bi bi-chevron-up"></i>
+    </div>
+    <!--Botão WhatsApp-->
+    <div id="whatsappButton" class="fixed-button">
+        <i class="bi bi-whatsapp"></i>
+    </div>
+    <header>
+
+        <div class="interface">
+            <div class="logo">
+                <a href="">
+                    <img src="" alt="Sua Logo">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="mailto:Guilherme.lsp10@gmail.com" target="_blank">
+                    <button>Contato</button>
+                </a>
+            </div><!--botao contato-->
+        </div><!--interface-->
+
+        <div class="btn-abrir-menu" id="btn">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div><!--btn fechar-->
+
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div><!--menu mobile-->
+        <div class="overlay-menu" id="overlay-menu"></div>
+    </header><!--fim header-->
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Codificando o futuro, uma linha de código de cada vez<span>.</span></h1>
+                        <p>Transformando ideias em inovação e criatividade, desenvolvendo soluções únicas que não apenas
+                            atendem às necessidades de hoje, mas também moldam o futuro, construindo um amanhã.</p>
+                        <div class="btn-contato">
+                            <a href="#" target="_blank"><button>Entre em Contato</button></a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="imagens/sua-foto.png" alt="">
+
+                    </div><!--img topo-site-->
+                </div><!--flex-->
+            </div><!--Interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES:</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Especialidade 1</h3>
+                        <p> Sites dinâmicos e funcionais, com foco em design intuitivo e segurança, desempenho superior
+                            e experiência do usuário.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Especialidade 2</h3>
+                        <p> Lojas online personalizadas, com foco em usabilidade, segurança e experiência do usuário,
+                            criando ideias em soluções e resultados tangíveis.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Especialidade 3</h3>
+                        <p>Blogs com foco em design atraente, navegação intuitiva e otimização para desempenho,
+                            proporcionando uma experiência única e facilidade de gerenciamento de conteúdo.</p>
+                    </div><!--especialidades-box-->
+
+                </div><!--flex-->
+            </div><!--interface-->
+
+        </section><!--especialidades-->
+
+        <section class="sobre" id="sobre">
+            <div class="flex">
+                <div class="img-sobre">
+                    <img src="imagens/sua-foto.png" alt="">
+                </div><!--img sobre-->
+
+                <div class="txt-sobre">
+                    <h2> MUITO PRAZER,<span>SOU O (NOME).</span></h2>
+                    <h3>Sou um estudante de Ciência da Computação apaixonado por transformar ideias em soluções
+                        tecnológicas inovadoras, explorando o futuro da programação, tecnologia da informação e
+                        desenvolvimento
+                        .</h3>
+                    <h3>Com uma abordagem voltada para o aprendizado contínuo e a adaptação às constantes mudanças
+                        tecnológicas, estou sempre em busca de novas oportunidades para aprimorar minhas habilidades e
+                        colaborar em projetos que possam contribuir para a inovação e melhorar a experiência digital.
+                    </h3>
+                    <div class="btn-social">
+                        <a href="" target="_blank"><button><i
+                                    class="bi bi-instagram"></i></button></a>
+                        <a href="" target="_blank"><button><i
+                                    class="bi bi-github"></i></i></button></a>
+                        <a href=""
+                            target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div>
+                </div><!--txt-sobre-->
+            </div><!--flex-->
+        </section><!--sobre-->
+
+        <section class="portfolio" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+
+                <div class="flex">
+                    <div class="img-port"
+                        style="background-image: url(imagens/imagem.png);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port"
+                        style="background-image: url(imagens/imagem.png
+                        );">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port"
+                        style="background-image: url(imagens/imagem.png);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+                <form method="post" action="https://formsubmit.co/Guilherme.lsp10@gmail.com" autocomplete="off"
+                    target="_blank">
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo:" required autocomplete="">
+                    <input type="text" name="email" id="email" placeholder="E-mail:" required required autocomplete="">
+                    <input type="text" name="telefone" id="telefone" placeholder="Telefone:" required required
+                        autocomplete="">
+                    <textarea name="Mensagem" id="mensagem" placeholder="Digite sua Mensagem:" required required
+                        autocomplete=""></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+        <script src="menutopo.js"></script>
+        <script src="actionButton.js"></script>
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer"><img src="" alt="Sua Logo">
+                    </div><!--logo-->
+                    <div class="btn-social">
+                        <a href="#" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#" target="_blank"><button><i class="bi bi-github"></i></i></button></a>
+                        <a href="#" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-->
+            <div>
+                <div class="line-footer  borda"><!--outra classe-->
+                    <p><i class="bi bi-envelope-fill"></i><a href="#" target="_blank">Seu Email</a></p>
+                </div><!--line-->
+            </div><!--interface-->
+    </footer>
+
+</body>
+
+</html>
