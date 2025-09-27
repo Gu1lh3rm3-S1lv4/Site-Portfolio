@@ -300,7 +300,7 @@ section.sobre .flex {
         /*encima e embaixo*/
         0;
     /*laterais*/
-font-weight: 300;
+    font-weight: 400;
     max-width: 60%;
 }
 
@@ -687,4 +687,5 @@ footer .line-footer p a {
     footer.line-footer {
         text-align: center;
     }
+
 }
