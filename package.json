@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Projeto de Portfólio pessoal de estudante de Ciência da Computação",
+  "homepage": "https://gu1lh3rm3-s1lv4.github.io/Site-Portfolio/",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gu1lh3rm3-S1lv4/Site-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Guilherme Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
+}
